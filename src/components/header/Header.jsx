@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.png';
 
 const Header = () => {
   return (
@@ -9,6 +10,11 @@ const Header = () => {
         <nav className="flex items-center justify-between h-16 lg:h-20">
           <div className="flex-shrink-0">
             <Link to="/" title="Home" className="flex items-center no-underline">
+               <img
+                className="w-auto h-8 lg:h-10"
+                src={logo}
+                alt="Logo"
+              />
             
               <span className="ml-3 text-xl font-bold text-black no-underline">Quran</span>
             </Link>
