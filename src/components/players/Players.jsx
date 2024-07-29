@@ -1,57 +1,58 @@
 import React from 'react';
-import { useEffect } from 'react'
-import ReactPlayer from 'react-player'
+import { useEffect } from 'react';
+import ReactPlayer from 'react-player';
 
 const Players = ({ reciterDetail, chapterDetail }) => {
   const audiLink = (reciter, number) =>
-    reciter + '/' + ('00' + number).slice(-3) + '.mp3'
+    reciter + '/' + ('00' + number).slice(-3) + '.mp3';
 
-  useEffect(() => {}, [chapterDetail, reciterDetail])
+  useEffect(() => {}, [chapterDetail, reciterDetail]);
+
+  const largeFontStyle = { fontSize: '2rem' };
 
   return (
     <div className='h-100 shadow-lg p-3 bg-red'>
-      <h1 className='fs-5 fw-bold text-center'>Player</h1> <hr />
+      <h1 className='fs-5 fw-bold text-center'>Player</h1>
+      <hr />
       {reciterDetail !== null && chapterDetail !== null ? (
         <ul className='list-group text-end'>
           <div>
             <li
-              className={`list-group-item bg-transparent border-0 text-black py-0 d-flex justify-content-between`}
+              className='list-group-item bg-transparent border-0 text-black py-0 d-flex justify-content-between'
             >
-              <span className='fw-bold'>Reciter: </span>{' '}
-              <span>{reciterDetail.name}</span>
+              <span className='fw-bold' style={largeFontStyle}>Reciter: </span>
+              <span style={largeFontStyle}>{reciterDetail.name}</span>
             </li>
             <hr />
             <li
-              className={`list-group-item bg-transparent border-0 text-black py-0 d-flex justify-content-between`}
+              className='list-group-item bg-transparent border-0 text-black py-0 d-flex justify-content-between'
             >
-              <span className='fw-bold'>Chapter In Arabic: </span>{' '}
-              <span>{chapterDetail.name_arabic}</span>
-            </li>
-            <hr />
-
-            <li
-              className={`list-group-item bg-transparent border-0 text-black py-0 d-flex justify-content-between`}
-            >
-              <span className='fw-bold'>Chapter In English: </span>{' '}
-              <span>{chapterDetail.name_complex}</span>
+              <span className='fw-bold' style={largeFontStyle}>Chapter In Arabic: </span>
+              <span style={largeFontStyle}>{chapterDetail.name_arabic}</span>
             </li>
             <hr />
             <li
-              className={`list-group-item bg-transparent border-0 text-black py-0 d-flex justify-content-between`}
+              className='list-group-item bg-transparent border-0 text-black py-0 d-flex justify-content-between'
             >
-              <span className='fw-bold'>Revelation Place: </span>{' '}
-              <span>{chapterDetail.revelation_place}</span>
+              <span className='fw-bold' style={largeFontStyle}>Chapter In English: </span>
+              <span style={largeFontStyle}>{chapterDetail.name_complex}</span>
             </li>
             <hr />
             <li
-              className={`list-group-item bg-transparent border-0 text-black py-0 d-flex justify-content-between`}
+              className='list-group-item bg-transparent border-0 text-black py-0 d-flex justify-content-between'
             >
-              <span className='fw-bold'>Translated Name: </span>{' '}
-              <span>{chapterDetail.translated_name.name}</span>
+              <span className='fw-bold' style={largeFontStyle}>Revelation Place: </span>
+              <span style={largeFontStyle}>{chapterDetail.revelation_place}</span>
             </li>
             <hr />
-
-            <div className='div '>
+            <li
+              className='list-group-item bg-transparent border-0 text-black py-0 d-flex justify-content-between'
+            >
+              <span className='fw-bold' style={largeFontStyle}>Translated Name: </span>
+              <span style={largeFontStyle}>{chapterDetail.translated_name.name}</span>
+            </li>
+            <hr />
+            <div className='div'>
               <ReactPlayer
                 url={audiLink(reciterDetail.Server, chapterDetail.id)}
                 controls={true}
@@ -68,7 +69,7 @@ const Players = ({ reciterDetail, chapterDetail }) => {
         </div>
       )}
     </div>
-  )
+  );
 }
 
-export default Players
+export default Players;
