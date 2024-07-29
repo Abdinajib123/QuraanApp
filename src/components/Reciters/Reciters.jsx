@@ -7,7 +7,7 @@ const Reciters = ({ reciters, reciterHandler }) => {
 
   return (
     <div className='min-vh-100 shadow-lg p-3 pt-10 overflow-hidden'>
-      <h1 className='fs-5 fw-bold text-center'>Reciters</h1>
+      <h1 className='fs-5 fw-bold text-center py-2'>Reciters</h1>
       <hr />
       {reciters && reciters.length > 0 ? (
         reciters.map((reciter) => (
