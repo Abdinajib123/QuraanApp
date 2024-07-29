@@ -6,7 +6,7 @@ const Chapters = ({ chapters, chapterHandler }) => {
 
   return (
     <div className='min-vh-100 shadow-lg p-3 pb-6 pt-10 overflow-hidden pb-6'>
-      <h1 className='fs-5 fw-bold text-center'>Chapters</h1> 
+      <h1 className='fs-5 fw-bold text-center py-2'>Chapters</h1> 
       <hr />
       <ul className='list-group text-end'>
         {chapters && chapters.length > 0 ? (
