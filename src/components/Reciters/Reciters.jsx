@@ -6,7 +6,7 @@ const Reciters = ({ reciters, reciterHandler }) => {
   const [activeId, setActiveId] = useState('');
 
   return (
-    <div className='min-vh-100 shadow-lg p-14 pt-10 overflow-hidden'>
+    <div className='min-vh-100 shadow-lg p-8 pt-10 overflow-hidden'>
       <h1 className='fs-5 fw-bold text-center'>Reciters</h1>
       <hr />
       {reciters && reciters.length > 0 ? (
