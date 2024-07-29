@@ -11,7 +11,7 @@ const Players = ({ reciterDetail, chapterDetail }) => {
   const largeFontStyle = { fontSize: '1.5rem' };
 
   return (
-    <div className='h-100 shadow-lg p-3 bg-red'>
+    <div className='h-100 shadow-lg p-6 '>
       <h1 className='fs-5 fw-bold text-center'>Player</h1>
       <hr />
       {reciterDetail !== null && chapterDetail !== null ? (
