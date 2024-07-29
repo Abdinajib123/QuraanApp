@@ -22,7 +22,7 @@ const Reciters = ({ reciters, reciterHandler }) => {
               }`}
             >
               <FaUserCircle className='fs-3' />
-              <span className='py-4 px-3' style={{ fontSize: '1.5rem' }}>{reciter.name}</span>
+              <span className='py-2 px-2' style={{ fontSize: '1.5rem' }}>{reciter.name}</span>
               <br />
             </div>
             <hr />
