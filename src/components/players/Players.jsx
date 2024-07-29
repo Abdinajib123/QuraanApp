@@ -8,7 +8,7 @@ const Players = ({ reciterDetail, chapterDetail }) => {
 
   useEffect(() => {}, [chapterDetail, reciterDetail]);
 
-  const largeFontStyle = { fontSize: '2rem' };
+  const largeFontStyle = { fontSize: '1.25rem' };
 
   return (
     <div className='h-100 shadow-lg p-3 bg-red'>
