@@ -19,11 +19,11 @@ const Quran = () => {
       } = await axios.get(`https://mp3quran.net/api/_english.php`);
       
       // Exclude the reciters at index 4, 12, and 17
-      const excludedIndices = [4, 12, 17];
+      const excludedIndices = [ 12, 17];
       const filteredReciters = reciters.filter((_, index) => !excludedIndices.includes(index));
 
       // Limit the reciters from 10 to 20
-      const limitedReciters = filteredReciters.slice(1, 20);
+      const limitedReciters = filteredReciters.slice(8, 20);
       setReciters(limitedReciters);
     }
 
