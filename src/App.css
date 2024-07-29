@@ -18,7 +18,7 @@ audio {
   height: 100%;
   overflow: auto;
 }
-.curser {
+.cursor {
   cursor: pointer;
 }
 .active {
