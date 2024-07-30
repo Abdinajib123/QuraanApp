@@ -17,6 +17,7 @@ Components
     5: PlayerComponent: Audio player with controls for play, pause, stop, and recitation details.
     
 Features
+
     1: HomePage: An overview of my background, interests, and experiences.
     
     2: AboutPage: A collection of my notable projects.
@@ -35,4 +36,6 @@ Install dependencies: npm install
 Start the development server: npm run dev
 
 Open your browser and visit: http://localhost:5173/
+
+Deployment Link: https://quraan-app-one.vercel.app/ 
 
