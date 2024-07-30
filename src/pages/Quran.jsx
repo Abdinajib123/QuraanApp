@@ -23,7 +23,7 @@ const Quran = () => {
       const filteredReciters = reciters.filter((_, index) => !excludedIndices.includes(index));
 
       // Limit the reciters from 10 to 20
-      const limitedReciters = filteredReciters.slice(8, 20);
+      const limitedReciters = filteredReciters.slice(8, 19);
       setReciters(limitedReciters);
     }
 
