@@ -5,6 +5,7 @@ Introduction.
 QuranApp is a React.js application designed to offer a beautiful and interactive way to explore and engage with the Quran, demonstrating my ability to build visually appealing and user-friendly applications.
 
 Components
+
     1: HeaderComponent:Top navigation bar with links to Home, About, Quran, and Contact pages, and the app's logo.
     
     2: FooterComponent:Bottom section with navigation links, contact information, social media icons, and legal info.
