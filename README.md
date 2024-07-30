@@ -1,41 +1,41 @@
-
+# Quran App
 Welcome to QuranApp! This project showcases my skills and projects as a Front-end developer.
 
-Introduction.
+# Introduction.
 QuranApp is a React.js application designed to offer a beautiful and interactive way to explore and engage with the Quran, demonstrating my ability to build visually appealing and user-friendly applications.
 
-Components
+# Components
 
-    1: HeaderComponent:Top navigation bar with links to Home, About, Quran, and Contact pages, and the app's logo.
+    - HeaderComponent:Top navigation bar with links to Home, About, Quran, and Contact pages, and the app's logo.
     
-    2: FooterComponent:Bottom section with navigation links, contact information, social media icons, and legal info.
+    - FooterComponent:Bottom section with navigation links, contact information, social media icons, and legal info.
     
-    3: RecitersComponent:Lists Quran reciters for users to select and listen to recitations.
+    - RecitersComponent:Lists Quran reciters for users to select and listen to recitations.
     
-    4: ChaptersComponent:Lists Quran chapters (Surahs) for users to view or listen to specific chapters.
+    - ChaptersComponent:Lists Quran chapters (Surahs) for users to view or listen to specific chapters.
     
-    5: PlayerComponent: Audio player with controls for play, pause, stop, and recitation details.
+    - PlayerComponent: Audio player with controls for play, pause, stop, and recitation details.
     
-Features
+# Features
 
-    1: HomePage: An overview of my background, interests, and experiences.
+    - HomePage: An overview of my background, interests, and experiences.
     
-    2: AboutPage: A collection of my notable projects.
+    - AboutPage: A collection of my notable projects.
     
-    3: QuranPage: A list of my technical skills and proficiencies.
+    - QuranPage: A list of my technical skills and proficiencies.
     
-    4: Contact: A form to send messages or inquiries.
+    - Contact: A form to send messages or inquiries.
 
-Installation
+# Installation
 To run QuranApp locally:
 
-Clone the repository: git clone https://github.com/Abdinajib123
+  1. Clone the repository: git clone https://github.com/Abdinajib123
 
-Install dependencies: npm install
+  2. Install dependencies: npm install
 
-Start the development server: npm run dev
+  3. Start the development server: npm run dev
 
-Open your browser and visit: http://localhost:5173/
+  4. Open your browser and visit: http://localhost:5173/
 
-Deployment Link: https://quraan-app-one.vercel.app/ 
+# Deployment Link: https://quraan-app-one.vercel.app/ 
 
